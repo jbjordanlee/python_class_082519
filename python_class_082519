@@ -1,0 +1,10 @@
+#!/usr/bin/python
+class family:
+  next_vacation_location = 'Alaska'
+  
+  def __init__(self, firstname, lastname):
+    self.firstname = firstname 
+    self.lastname = lastname
+   
+f1 = family('Duke', 'Poke')
+print(f1.firstname)
